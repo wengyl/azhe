@@ -15,9 +15,9 @@ projects:
     link: https://vlink.cc/AZhe68
 
   - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+    name: 比赛服务
+    desc: 大学生A类比赛服务
+    link: https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkzODYzNTIwMw==&action=getalbum&album_id=3680378785809055752#wechat_redirect
 
   - icon: book
     name: 书籍名称

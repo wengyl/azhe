@@ -2,10 +2,10 @@ import { hopeTheme } from "vuepress-theme-hope";
 
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
-
 export default hopeTheme({
   hostname: "https://wengyl.github.io/",
 
+  
   author: {
     name: "阿哲",
     url: "https://vlink.cc/AZhe68",
@@ -13,7 +13,8 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://img.alicdn.com/imgextra/i4/O1CN012JbUEC1xovsePvwKR_!!6000000006491-2-tps-2560-2560.png",
+  logo: "https://img.alicdn.com/imgextra/i4/O1CN01XPqqtB1EkD5PaQGYi_!!6000000000389-2-tps-7680-7680.png",
+
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
