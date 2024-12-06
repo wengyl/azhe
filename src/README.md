@@ -7,7 +7,7 @@ title: 阿哲主页
 heroImage: https://img.alicdn.com/imgextra/i4/O1CN012JbUEC1xovsePvwKR_!!6000000006491-2-tps-2560-2560.png
 heroText: 专注服务于大学生A类竞赛数年
 heroFullScreen: true
-tagline: 您好，我是阿哲，专注于为大学师生提供A类竞赛的赛事辅导和保奖等服务。如果您有相关需求，欢迎与我联系。期待与您合作，共同实现目标！
+tagline: 您好，我是阿哲。如果您有相关需求，欢迎与我联系。期待与您合作，共同实现目标！
 projects:
   - icon: project
     name: 个人介绍
@@ -20,9 +20,9 @@ projects:
     link: https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkzODYzNTIwMw==&action=getalbum&album_id=3680378785809055752#wechat_redirect
 
   - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
+    name: 资料上展示
+    desc: 创赛近五年正版资料包
+    link: https://flowus.cn/share/16919a7d-d83d-4f39-bb5a-ccfd5f0a9031
 
   - icon: article
     name: 文章名称
