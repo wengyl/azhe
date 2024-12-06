@@ -2,7 +2,9 @@
 icon: pen-to-square
 date: 2024-12-06
 category:
-  - 测试
+  - 其他
+tag:
+  - 其他
 ---
 
 # 测试
