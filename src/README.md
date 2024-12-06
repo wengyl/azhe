@@ -3,8 +3,9 @@ home: true
 layout: BlogHome
 icon: home
 title: 阿哲主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: 创赛指南
+# heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: https://img.alicdn.com/imgextra/i4/O1CN012JbUEC1xovsePvwKR_!!6000000006491-2-tps-2560-2560.png
+heroText: 专注服务于大学生A类竞赛数年
 heroFullScreen: true
 tagline: 您好，我是阿哲，专注于为大学师生提供A类竞赛的赛事辅导和保奖等服务。如果您有相关需求，欢迎与我联系。期待与您合作，共同实现目标！
 projects:
@@ -28,21 +29,21 @@ projects:
     desc: 文章详细描述
     link: https://你的文章链接
 
-  - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
+  # - icon: friend
+  #   name: 伙伴名称
+  #   desc: 伙伴详细介绍
+  #   link: https://你的伙伴链接
 
-  - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
+  # - icon: https://theme-hope-assets.vuejs.press/logo.svg
+  #   name: 自定义项目
+  #   desc: 自定义详细介绍
+  #   link: https://你的自定义链接
 
-footer: 自定义你的页脚文字
+footer: 阿哲
 ---
-
+<!-- 
 这是一个博客主页的案例。
 
-要使用此布局，你应该在页面前端设置 `layout: BlogHome` 和 `home: true`。
+要使用此布局，你应该在页面前端设置 `layout: BlogHome` 和 `home: true`。 -->
 
-相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home.html)。
+<!-- 相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home.html)。 -->

@@ -4,7 +4,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://wengyl.github.io/",
 
   author: {
     name: "阿哲",
@@ -13,7 +13,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "https://img.alicdn.com/imgextra/i4/O1CN012JbUEC1xovsePvwKR_!!6000000006491-2-tps-2560-2560.png",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
@@ -34,41 +34,45 @@ export default hopeTheme({
     description: "大学生A类赛事服务者",
     intro: "/intro.html",
     medias: {
-      Baidu: "https://example.com",
-      BiliBili: "https://example.com",
-      Bitbucket: "https://example.com",
-      Dingding: "https://example.com",
-      Discord: "https://example.com",
-      Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
-      Evernote: "https://example.com",
-      Facebook: "https://example.com",
-      Flipboard: "https://example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
-      Gitlab: "https://example.com",
-      Gmail: "mailto:info@example.com",
-      Instagram: "https://example.com",
-      Lark: "https://example.com",
-      Lines: "https://example.com",
-      Linkedin: "https://example.com",
-      Pinterest: "https://example.com",
-      Pocket: "https://example.com",
-      QQ: "https://example.com",
-      Qzone: "https://example.com",
-      Reddit: "https://example.com",
-      Rss: "https://example.com",
-      Steam: "https://example.com",
-      Twitter: "https://example.com",
-      Wechat: "https://example.com",
-      Weibo: "https://example.com",
-      Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
-      Zhihu: "https://example.com",
-      VuePressThemeHope: {
-        icon: "https://theme-hope-assets.vuejs.press/logo.svg",
-        link: "https://theme-hope.vuejs.press",
+      // Baidu: "https://example.com",
+      // BiliBili: "https://example.com",
+      // Bitbucket: "https://example.com",
+      // Dingding: "https://example.com",
+      // Discord: "https://example.com",
+      // Dribbble: "https://example.com",
+      // Evernote: "https://example.com",
+      // Facebook: "https://example.com",
+      // Flipboard: "https://example.com",
+      // Gitee: "https://example.com",
+      // GitHub: "https://example.com",
+      // Gitlab: "https://example.com",
+      // Gmail: "mailto:info@example.com",
+      // Instagram: "https://example.com",
+      // Lark: "https://example.com",
+      // Lines: "https://example.com",
+      // Linkedin: "https://example.com",
+      // Pinterest: "https://example.com",
+      // Pocket: "https://example.com",
+      Wechat: {
+        icon: "https://img.alicdn.com/imgextra/i2/O1CN01wFWn7u1Ck5khWZaw7_!!6000000000118-55-tps-48-48.svg",
+        link: "https://img.alicdn.com/imgextra/i4/O1CN01DePxwT1OyXd1ChmvG_!!6000000001774-0-tps-1074-1455.jpg",
       },
+      QQ: "http://wpa.qq.com/msgrd?v=3&uin=1977149276&site=qq&menu=yes",
+      Qzone: "https://1977149276.qzone.qq.com/",
+      Email: "mailto:wengyl@yeah.net",
+      // Reddit: "https://example.com",
+      // Rss: "https://example.com",
+      // Steam: "https://example.com",
+      // Twitter: "https://example.com",
+      // Wechat: "https://example.com",
+      // Weibo: "https://example.com",
+      // Whatsapp: "https://example.com",
+      // Youtube: "https://example.com",
+      // Zhihu: "https://example.com",
+      // VuePressThemeHope: {
+      //   icon: "https://theme-hope-assets.vuejs.press/logo.svg",
+      //   link: "https://img.alicdn.com/imgextra/i4/O1CN01DePxwT1OyXd1ChmvG_!!6000000001774-0-tps-1074-1455.jpg",
+      // },
     },
   },
 
@@ -89,7 +93,10 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
   plugins: {
-    blog: true,
+    // blog: true,
+    blog: {
+      article:"/article1/"
+    },
 
     // 启用之前需安装 @waline/client
     // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
@@ -129,6 +136,8 @@ export default hopeTheme({
       mark: true,
       plantuml: true,
       spoiler: true,
+      flowchart:true,
+      markmap:true,
       stylize: [
         {
           matcher: "Recommended",
