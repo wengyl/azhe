@@ -1,5 +1,4 @@
 import { hopeTheme } from "vuepress-theme-hope";
-
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 export default hopeTheme({
@@ -13,7 +12,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://img.alicdn.com/imgextra/i4/O1CN01XPqqtB1EkD5PaQGYi_!!6000000000389-2-tps-7680-7680.png",
+  logo: "logo.png",
 
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
@@ -94,10 +93,7 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
   plugins: {
-    // blog: true,
-    blog: {
-      article:"/article1/"
-    },
+    blog: true,
 
     // 启用之前需安装 @waline/client
     // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
@@ -135,10 +131,6 @@ export default hopeTheme({
       demo: true,
       include: true,
       mark: true,
-      plantuml: true,
-      spoiler: true,
-      flowchart:true,
-      markmap:true,
       stylize: [
         {
           matcher: "Recommended",
