@@ -1,1 +1,5 @@
 // place your custom styles here
+/* 仅显示文章标题，隐藏其他信息 */
+.vp-article-excerpt {
+    display: none !important;
+}

@@ -1,5 +1,7 @@
 ---
 icon: circle-info
+editLink: false
+footer: 创赛指南
 cover: /assets/images/cover.jpg
 ---
 
